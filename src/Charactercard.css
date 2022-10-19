@@ -1,0 +1,19 @@
+
+
+section {
+    border: solid 2px deeppink;
+    border-radius: 2pc;
+    box-shadow: 4px 4px lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 300px;
+    height: auto;
+    /*flex-grow: 1;*/
+    /*font-size: 1.7vw;*/
+}
+img{
+    width: 190px;
+}
