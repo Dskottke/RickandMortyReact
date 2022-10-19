@@ -1,3 +1,5 @@
 h1{
     text-align: center;
+    color: lightgray;
+    text-shadow: 2px 2px darkred;
 }
