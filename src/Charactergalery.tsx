@@ -1,6 +1,7 @@
 import React from "react";
 import Charactercard from "./Charactercard";
 import "./Charactergalery.css"
+import {nanoid} from "nanoid";
 
 export default function Charactergalery() {
     type Character = {
@@ -296,7 +297,7 @@ export default function Charactergalery() {
             name={current.name}
             image={current.image}
             origin={current.origin.name}
-            key={current.name}></Charactercard>
+            key={nanoid()}/>
     })}
     </main>
 
